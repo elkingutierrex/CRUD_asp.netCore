@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.netCoreMVCCRUD", "Asp.netCoreMVCCRUD\Asp.netCoreMVCCRUD.csproj", "{559B939F-938D-4565-97BB-4028FC12513E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Helper", "Demo.Helper\Demo.Helper.csproj", "{8306926B-C796-41D2-A568-F8907D232A79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{559B939F-938D-4565-97BB-4028FC12513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559B939F-938D-4565-97BB-4028FC12513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{559B939F-938D-4565-97BB-4028FC12513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8306926B-C796-41D2-A568-F8907D232A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8306926B-C796-41D2-A568-F8907D232A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8306926B-C796-41D2-A568-F8907D232A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8306926B-C796-41D2-A568-F8907D232A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

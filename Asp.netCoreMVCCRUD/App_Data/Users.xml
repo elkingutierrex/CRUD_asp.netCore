@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Algar>
+  <Usuario>
+    <Login>PruebasAlgar</Login>
+    <Password>Algar123</Password>
+  </Usuario>
+  <Usuario>
+    <Login>SoporteTI</Login>
+    <Password>1234</Password>
+  </Usuario>
+</Algar>

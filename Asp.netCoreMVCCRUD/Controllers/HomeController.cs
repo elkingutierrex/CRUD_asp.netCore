@@ -39,5 +39,22 @@ namespace Asp.netCoreMVCCRUD.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Login(string usuario, string password)
+        {
+           if(usuario == "PruebasAlgar" && password == "Algar123")
+            {
+                return RedirectToAction("../Cliente");
+            }
+           else
+            {
+                ViewData["MsgError"] = "Verifique su usuario y contraseña";
+                return RedirectToAction("/");
+            }
+
+
+
+            
+        }
     }
 }

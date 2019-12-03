@@ -30,12 +30,13 @@
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Asp.netCoreMVCCRUD</a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <ul class="nav navbar-nav col-12 row ">
                     @*<li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>*@
-                    <li><a asp-area="" asp-controller="Cliente" asp-action="">Clientes</a></li>
+                    <li class="col-1"><a asp-area="" asp-controller="Cliente" asp-action="">Clientes</a></li>
                     @*<li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>*@
+                    <li class="col-offset-10"><a asp-area="" asp-controller="Home" asp-action="Index">Login</a></li>
                 </ul>
+               
             </div>
         </div>
     </nav>
